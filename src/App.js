@@ -1,6 +1,10 @@
 // window.alert("This is an alert");
 
-import HOCExample from "./HOCExample";
+import DynamicRoute from './DynamicRoute';
+// import Redirection from "./Redirection";
+// import AdvanceRouting from "./AdvanceRouting";
+// import Routing from "./Routing";
+// import HOCExample from "./HOCExample";
 // import HookUseRef from "./HookUseRef";
 // import HookUseMemo from "./HookUseMemo";
 // import ParentComponent from "./ParentComponent";
@@ -48,7 +52,11 @@ export default function App() {
       <br />
       <input id="notPreferable" type="text" defaultValue={100} /> */}
 
-      <HOCExample />
+      {/* <HOCExample /> */}
+      {/* <Routing /> */}
+      {/* <AdvanceRouting /> */}
+      {/* <Redirection /> */}
+      <DynamicRoute />
     </>
   );
 }
