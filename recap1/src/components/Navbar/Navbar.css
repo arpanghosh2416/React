@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  color: white;
+  padding: 20px 40px;
+  background-color: #222222;
+}
+
+nav ul {
+  gap: 20px;
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.navbar-link {
+  color: white;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+.active,
+.navbar-link:hover {
+  color: black;
+  padding: 4px 8px;
+  border-radius: 2px;
+  background: #bbb8b8;
+  text-decoration: none;
+}
