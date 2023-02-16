@@ -1,6 +1,7 @@
 // window.alert("This is an alert");
 
-import DynamicRoute from './DynamicRoute';
+import NavbarLink from './NavbarLink';
+// import DynamicRoute from './DynamicRoute';
 // import Redirection from "./Redirection";
 // import AdvanceRouting from "./AdvanceRouting";
 // import Routing from "./Routing";
@@ -56,7 +57,8 @@ export default function App() {
       {/* <Routing /> */}
       {/* <AdvanceRouting /> */}
       {/* <Redirection /> */}
-      <DynamicRoute />
+      {/* <DynamicRoute /> */}
+      <NavbarLink />
     </>
   );
 }

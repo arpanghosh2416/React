@@ -5,7 +5,7 @@ import Users from './Users';
 function DynamicRoute() {
   return (
     <>
-      <h1>Welcome u to Dynamic Route</h1>
+      <h1>Welcome to u to Dynamic Route</h1>
       <BrowserRouter>
         <ul>
           <li>
