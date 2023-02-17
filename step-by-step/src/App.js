@@ -1,6 +1,6 @@
 // window.alert("This is an alert");
 
-import NavbarLink from './NavbarLink';
+// import NavbarLink from './NavbarLink';
 // import DynamicRoute from './DynamicRoute';
 // import Redirection from "./Redirection";
 // import AdvanceRouting from "./AdvanceRouting";
@@ -9,7 +9,7 @@ import NavbarLink from './NavbarLink';
 // import HookUseRef from "./HookUseRef";
 // import HookUseMemo from "./HookUseMemo";
 // import ParentComponent from "./ParentComponent";
-// import GeneralForm from "./GeneralForm";
+import GeneralForm from "./GeneralForm";
 // import HookUseEffect from "./HookUseEffect";
 // import ShowList from "./ShowList";
 
@@ -42,7 +42,7 @@ export default function App() {
     // </>
     <>
       {/* <MyForm /> */}
-      {/* <GeneralForm /> */}
+      <GeneralForm />
       {/* <HookUseEffect /> */}
       {/* <ShowList /> */}
       {/* <ParentComponent /> */}
@@ -58,7 +58,7 @@ export default function App() {
       {/* <AdvanceRouting /> */}
       {/* <Redirection /> */}
       {/* <DynamicRoute /> */}
-      <NavbarLink />
+      {/* <NavbarLink /> */}
     </>
   );
 }
